@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EditHobi - Portal Editing Kreatif</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">Edit<span>Hobi</span></h1>
+      <nav>
+        <a href="#home">Beranda</a>
+        <a href="#gallery">Galeri</a>
+        <a href="#tools">Alat</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Wujudkan Kreativitas Editing-mu</h2>
+      <p>Foto, video, audio — semua bisa kamu edit dengan hasil profesional.</p>
+      <a href="#tools" class="btn">Mulai Edit</a>
+    </div>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <div class="container">
+      <h2>Hasil Edit</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="placeholder" style="background: #4a90d9;">Foto 1</div>
+          <p>Color Grading</p>
+        </div>
+        <div class="card">
+          <div class="placeholder" style="background: #e67e22;">Video 1</div>
+          <p>Video Compilation</p>
+        </div>
+        <div class="card">
+          <div class="placeholder" style="background: #2ecc71;">Audio 1</div>
+          <p>Audio Mixing</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tools" class="tools">
+    <div class="container">
+      <h2>Alat Editing</h2>
+      <div class="grid">
+        <div class="card tool-card" data-tool="brightness">
+          <h3>Brightness & Contrast</h3>
+          <p>Sesuaikan pencahayaan foto.</p>
+        </div>
+        <div class="card tool-card" data-tool="filter">
+          <h3>Filter Cepat</h3>
+          <p>Terapkan filter satu klik.</p>
+        </div>
+        <div class="card tool-card" data-tool="crop">
+          <h3>Crop & Resize</h3>
+          <p>Potong dan ubah ukuran.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Hubungi Kami</h2>
+      <form id="contactForm">
+        <input type="text" placeholder="Nama" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Pesan" rows="4" required></textarea>
+        <button type="submit" class="btn">Kirim</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 EditHobi. Dikelola dengan penuh kreativitas.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
